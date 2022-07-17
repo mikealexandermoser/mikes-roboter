@@ -1,0 +1,7 @@
+DFRobotMaqueenPlus.mototRun(Motors.ALL, Dir.CW, 255)
+basic.pause(10000)
+DFRobotMaqueenPlus.setRGBLight(RGBLight.RGBA, Color.BLUE)
+basic.pause(5000)
+DFRobotMaqueenPlus.mototRun(Motors.ALL, Dir.CCW, 255)
+basic.pause(10000)
+DFRobotMaqueenPlus.mototStop(Motors.ALL)
